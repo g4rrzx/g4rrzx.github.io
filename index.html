@@ -3,58 +3,72 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tegar Andriyansyah — Personal Site</title>
+<title>Hermes — Tegar Andriyansyah</title>
+<meta name="description" content="Hermes — personal automation assistant by Tegar Andriyansyah. Home of the Hermes Agent application.">
 <style>
   :root { color-scheme: light dark; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    line-height: 1.6; max-width: 640px; margin: 0 auto; padding: 3rem 1.5rem;
+    line-height: 1.6; max-width: 660px; margin: 0 auto; padding: 3rem 1.5rem;
     color: #1a1a1a; background: #fafafa;
   }
   @media (prefers-color-scheme: dark) {
     body { color: #e8e8e8; background: #141414; }
     a { color: #6ea8fe; }
     .card { background: #1e1e1e; border-color: #2e2e2e; }
+    .sub, .muted { color: #999; }
   }
-  h1 { font-size: 1.6rem; margin-bottom: .4rem; }
+  h1 { font-size: 1.7rem; margin-bottom: .3rem; }
+  h1 .badge { font-size: .72rem; vertical-align: middle; padding: .18rem .5rem;
+    border-radius: 20px; background: #0b57d0; color: #fff; margin-left: .5rem; }
   .sub { color: #666; margin-bottom: 2rem; }
-  @media (prefers-color-scheme: dark) { .sub { color: #999; } }
   .card {
     background: #fff; border: 1px solid #e2e2e2; border-radius: 10px;
     padding: 1.2rem 1.4rem; margin-bottom: 1rem;
   }
   h2 { font-size: 1.05rem; margin-bottom: .5rem; }
+  h3 { font-size: .95rem; margin: .9rem 0 .3rem; }
   p, li { font-size: .95rem; }
   ul { padding-left: 1.2rem; }
   a { color: #0b57d0; text-decoration: none; }
   a:hover { text-decoration: underline; }
   footer { margin-top: 2.5rem; font-size: .85rem; color: #888; }
+  .muted { color: #888; font-size: .9rem; }
 </style>
 </head>
 <body>
-  <h1>Tegar Andriyansyah</h1>
-  <p class="sub">Informatics Engineering · Web3 &amp; Automation</p>
+  <h1>Hermes <span class="badge">Application</span></h1>
+  <p class="sub">Personal automation assistant · by Tegar Andriyansyah</p>
 
   <div class="card">
-    <h2>About</h2>
-    <p>Personal software projects, research, and automation tools.
-       This site hosts documentation and policy pages for personal applications
-       developed by Tegar Andriyansyah.</p>
+    <h2>About Hermes</h2>
+    <p><strong>Hermes</strong> is a personal automation assistant application developed by
+       Tegar Andriyansyah. It connects to the developer's own Google account through
+       Google APIs to help manage calendars, documents, spreadsheets, and email
+       as part of personal productivity workflows.</p>
+    <p class="muted" style="margin-top:.6rem;">
+      Hermes is a private, single-user tool. It is not offered as a public service
+      and no third-party accounts are supported.
+    </p>
   </div>
 
   <div class="card">
-    <h2>Projects</h2>
+    <h2>What Hermes Does</h2>
     <ul>
-      <li>Personal automation &amp; AI agent tooling</li>
-      <li>Web3 research and blockchain monitoring</li>
-      <li>University coursework &amp; academic projects</li>
+      <li>Reads and manages Google Calendar events for the account owner</li>
+      <li>Creates and edits Google Docs, Sheets, and Drive files on request</li>
+      <li>Handles personal email automation (Gmail) for the account owner</li>
+      <li>Performs personal task automation and research workflows</li>
     </ul>
   </div>
 
   <div class="card">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:tegar.andriyansyh@gmail.com">tegar.andriyansyh@gmail.com</a></p>
+    <h2>Developer</h2>
+    <p><strong>Tegar Andriyansyah</strong></p>
+    <p class="muted">Informatics Engineering · Builder of personal automation tooling</p>
+    <p style="margin-top:.6rem;">Email:
+      <a href="mailto:tegar.andriyansyh@gmail.com">tegar.andriyansyh@gmail.com</a></p>
     <p>GitHub: <a href="https://github.com/g4rrzx">github.com/g4rrzx</a></p>
   </div>
 
